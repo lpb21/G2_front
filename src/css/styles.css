@@ -1,0 +1,158 @@
+
+/* * letras del componente tabs */
+.nav-link {
+  color: #f10000;
+}
+
+/* * background del panel nav */
+/* .sidebar-dark-primary .nav-sidebar > .nav-item > .nav-link.active,
+.sidebar-light-primary .nav-sidebar > .nav-item > .nav-link.active {
+  background-color: #ad0034;
+} */
+
+/* * color de las tabla*/
+/* .page-item.active .page-link {
+  background-color: #ff8825;
+  border-color: #f10000;
+  color: #f10000;
+} */
+
+/* * numeros de seleccion en el footer de la tabla */
+a.page-link {
+  color: #f10000;
+}
+
+/* * links en los textos */
+a {
+  color: #f10000;
+}
+
+
+
+/* * clase que da el tipo de letra y tamaño */
+/* body {
+  font-family: "Arial Narrow";
+  font-size: 100%;
+} */
+
+
+
+/* *  clases css que colorea el hover de los tabs */
+.nav-link:focus, .nav-link:hover {
+  color: black !important;
+}
+
+/* *  clases css que da el color inicial de los tabs */
+.nav {
+  --bs-nav-link-color: black !important;
+}
+
+
+/* *  clases css de movimiento del boton de enviar datos */
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  -webkit-transform: translateY(-0.25em);
+          transform: translateY(-0.25em);
+}
+
+
+/* *  clase css del aside hasta el fondo de la pagina */
+body:not(.layout-fixed) .main-sidebar {
+  position: fixed !important;
+  
+}
+
+
+
+
+/* *  CLASES RELACIONADAS CON TABLAS */
+
+/* *  clase css para la celda Calendario Comercial */
+.titulosCalenComercial {
+  white-space: normal ;
+  line-height: 1.2 !important;
+  vertical-align: middle;
+  border-color: black ;
+  border-bottom: 2px solid black !important;
+  border-top: 2px solid black !important;
+  font-weight: bold;
+}
+
+/* * primeras columnas */
+/* .color-fixed{
+background-color: white !important;
+border: 1px solid black;
+} */
+
+
+
+/* * Clases de la columna fija */
+/* .sticky-left {
+  position: sticky;
+  left: 0;
+  background-color: white !important;
+  white-space: nowrap;
+  border-color: #c4c0c9 solid 1px;
+} */
+
+/* * Clase para acomodar las letras dentro de las celdas */
+.titulos{
+  white-space: nowrap;
+  background-color: #f5f5f5 !important; 
+  /* border-color: 1px solid black !important; */
+}
+
+/* * Clase css que mantiene la tabla en el contenedor de la pagina */
+.table-wrapper {
+  overflow-x: auto;
+}
+
+/* * tamaño al maximo*/
+/* .my-table {
+  max-width: 100%;
+} */
+
+/* * clases para el tamaño de las celdas y tamaño de la letra*/
+.my-table th,
+.my-table td{
+  font-size: 0.8rem;
+  line-height: 7px;
+  /* border: 1px solid #dee2e6; */
+}
+
+/* * clases que alinea el contenido de las celdas*/
+.alineacion{
+  text-align: center;
+}
+
+/* * clase que da el tamaño de la letra*/
+.tamanioLetra{
+  font-size:97%;
+}
+
+/* * clase que da el color a la celda al pasar el cursor*/
+.my-table td:hover,
+  .my-table th:hover,
+  .my-table tr:hover {
+    background-color: yellow !important;
+    /* background-color: var(--hover-color) !important; */
+  }
+
+
+  /* * clase que da el borde punteado continuo a las celdas*/
+  table.table-bordered.dataTable tbody th, table.table-bordered.dataTable tbody td {
+    border: 0.1px dotted #869099;
+}
+
+.table-bordered thead td, .table-bordered thead th {
+  border-bottom-width: 2px;
+  background-color: #f4f6f9;
+}
+
+/* * clase que da el head a la tabla fijo*/
+.table-bordered thead td, .table-bordered thead th {
+  border-bottom-width: 2px;
+  background-color: #f4f6f9;
+  position: sticky !important;
+}
